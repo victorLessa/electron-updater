@@ -20,9 +20,14 @@
       "oneClick": false,
       "perMachine": false,
       "allowToChangeInstallationDirectory": true,
+      "createStartMenuShortcut": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "updateBuilder",
+      "artifactName": "win-installer-x86-${version}.${ext}",
+      "include": "installer.nsh",
       "publish": {
         "provider": "github",
-        "token": "e865b250b26f3a26db56b33ee00c759066c53fff"
+        "token": "a7e4a7406bec3cd0f58c39f4273af57687025647"
       }
     }
   },
