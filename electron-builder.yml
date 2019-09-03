@@ -1,4 +1,4 @@
 appId: com.achei.app
 publish:
   provider: github
-  token: a06bbfd03e4381826d79e5767d388d410781815d
+  token: [a06bbfd03e4381826d79e5767d388d410781815d]
