@@ -27,7 +27,7 @@
       "include": "build/installer.nsh",
       "publish": {
         "provider": "github",
-        "token": "a7e4a7406bec3cd0f58c39f4273af57687025647"
+        "token": "6d50efaa26aa04b00a7adbb0dfe10f6e707cc40e"
       }
     }
   },
