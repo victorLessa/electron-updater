@@ -1,6 +1,6 @@
 !ifndef BUILD_UNINSTALLER
   Function AddToStartup
-    CreateShortCut "$SMSTARTUP\Costlocker.lnk" "$INSTDIR\Costlocker.exe" ""
+    CreateShortCut "$SMSTARTUP\electronbuilder.lnk" "$INSTDIR\electronbuilder.exe" ""
   FunctionEnd
 
   ; Using the read me setting as an easy way to add an add to startup option
@@ -10,5 +10,5 @@
 !endif
 
 !macro customUnInstall
-  Delete "$SMSTARTUP\Costlocker.lnk"
+  Delete "$SMSTARTUP\electronbuilder.lnk"
 !macroend

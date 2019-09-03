@@ -1,6 +1,6 @@
 {
   "name": "electronbuilder",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -27,7 +27,7 @@
       "include": "build/installer.nsh",
       "publish": {
         "provider": "github",
-        "token": "6d50efaa26aa04b00a7adbb0dfe10f6e707cc40e"
+        "token": "270e4a470c4867d3cbfa121d49bb42daa141e968"
       }
     }
   },
