@@ -24,7 +24,7 @@
       "createDesktopShortcut": true,
       "shortcutName": "updateBuilder",
       "artifactName": "win-installer-x86-${version}.${ext}",
-      "include": "installer.nsh",
+      "include": "build/installer.nsh",
       "publish": {
         "provider": "github",
         "token": "a7e4a7406bec3cd0f58c39f4273af57687025647"
