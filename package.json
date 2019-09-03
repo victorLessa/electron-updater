@@ -1,6 +1,6 @@
 {
   "name": "electronbuilder",
-  "version": "1.0.1",
+  "version": "1.0.12",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -22,7 +22,7 @@
       "allowToChangeInstallationDirectory": true,
       "publish": {
         "provider": "github",
-        "token": "5a830369987d46f7ee79bacde697b2e064106b13"
+        "token": "65e8f2ad0b9420b436fd4b3bffd0481d2ef95848"
       }
     }
   },
