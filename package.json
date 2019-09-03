@@ -1,6 +1,6 @@
 {
   "name": "electronbuilder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -17,10 +17,13 @@
   },
   "build": {
     "nsis": {
-      "onClick": false,
+      "oneClick": false,
       "perMachine": false,
       "allowToChangeInstallationDirectory": true,
-      "publish": ["github"]
+      "publish": {
+        "provider": "github",
+        "token": "5a830369987d46f7ee79bacde697b2e064106b13"
+      }
     }
   },
   "repository": {
