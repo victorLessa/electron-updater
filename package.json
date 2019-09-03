@@ -15,6 +15,14 @@
     "electron": "^6.0.7",
     "electron-builder": "^21.2.0"
   },
+  "build": {
+    "nsis": {
+      "onClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "publish": ["github"]
+    }
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/VictorLessa/electron-updater.git"
