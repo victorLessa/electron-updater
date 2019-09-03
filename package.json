@@ -22,7 +22,7 @@
       "allowToChangeInstallationDirectory": true,
       "publish": {
         "provider": "github",
-        "token": "65e8f2ad0b9420b436fd4b3bffd0481d2ef95848"
+        "token": "b53fc3796a1842f918656c806ca1c7dbd8fdfd80"
       }
     }
   },
